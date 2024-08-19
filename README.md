@@ -28,17 +28,20 @@ Os seguintes critérios serão utilizados apra a avaliação do Projeto do desaf
 O desafio consiste em criar uma estrutra para uma aplicação web, que deve conter os seguintes recursos:
 
 ### Uma máquina de banco de dados contendo um Banco de Dados PostgreSQL
+
 - Deve ser utilizada a versão 17 do PostgreSQL;
 - Deve ter uma rotina de backup, enviando o backup para um serviço de armazenamento de Objetos; e
 - Deve ser acesseível apenas pela máquina contendo o servidor web.
 
-### Uma máquina para aplicação contendo um servidor web Nginx
+### Uma máquina para aplicação contendo um servidor web
+
 - Deve ser utilizada a versão 1.26 do Nginx;
 - Deve ser acessível pela internet;
 - Deve conter um certificado SSL válido; e
 - O serviço SSH deve ser acessível pela internet.
 
 ### Uma máquina de banco de dados contendo um Banco de Dados MongoDB
+
 - Deve ser utilizada a versão 7.1 do MongoDB;
 - Deve ter uma rotina de backup, enviando o backup para um serviço de armazenamento de Objetos; e
 - Deve ser acesseível apenas pela máquina contendo o servidor web.
@@ -48,7 +51,5 @@ O desafio consiste em criar uma estrutra para uma aplicação web, que deve cont
 - O dimensionamento das máquinas é de sua escolha;
 - O serviço de armazenamento de Objetos é de sua escolha;
 - O serviço de Certificado SSL é de sua escolha;
-
-
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas._
