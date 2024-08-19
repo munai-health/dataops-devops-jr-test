@@ -19,7 +19,7 @@ Os seguintes critérios serão utilizados apra a avaliação do Projeto do desaf
 - Deve prever as configurações necessárias para o funcionamento do ambiente;
 - Deve ser feito um diagrama de arquitetura do ambiente;
 - Os arquivos devem ser claros e organizados;
-- Os arqvuiso não devem ser de formatos binários ou proprietários;
+- Os arquivos não devem ser de formatos binários ou proprietários;
 - [Padrão de commits](https://www.conventionalcommits.org/pt-br/v1.0.0/); e
 - Código em inglês.
 
