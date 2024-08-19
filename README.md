@@ -4,11 +4,9 @@ Obrigado por participar de nosso processo seletivo.
 
 ## Instruções
 
-### Crie um repositório no seu GitHub
-
-### Faça seus commits descritivos e específicos no seu repositório
-
-Atenção, avaliaremos o conteúdo do repositório bem como a descrição dos commits.
+- Crie um repositório no seu GitHub
+- Faça seus commits descritivos e específicos no seu repositório
+- Atenção, avaliaremos o conteúdo do repositório bem como a descrição dos commits.
 
 ## Critérios de Avaliação
 
