@@ -13,14 +13,14 @@ Obrigado por participar do nosso processo seletivo.
 Os seguintes critérios serão utilizados para a avaliação do projeto do desafio:
 
 - Deve ser realizado utilizando Infraestrutura como Código (IaC), como Terraform, CloudFormation, Ansible, etc.;
-- Deve ser desenvolvido para ser utilizado em infraestrutura na nuvem, como AWS, Azure, GCP, etc. **Não é obrigatória a implementação real do sistema, apenas o plano gerado pelo Terraform**. Use o comando `terraform plan` para verificar seu código;
+- Deve ser desenvolvido para ser utilizado em infraestrutura na nuvem, como AWS, Azure, GCP, etc. **Não é obrigatória a implementação real do sistema**.
 - Deve incluir as regras de segurança necessárias para o ambiente;
 - Deve incluir as regras de roteamento necessárias para o ambiente;
 - Deve incluir as configurações necessárias para o funcionamento do ambiente;
 - Deve ser feito um diagrama de arquitetura do ambiente;
 - Os arquivos devem ser claros e organizados;
 - Os arquivos não devem ser de formatos binários ou proprietários;
-- [Padrão de commits](https://www.conventionalcommits.org/pt-br/v1.0.0/); e
+- [Padrão de commits](https://www.conventionalcommits.org/pt-br/v1.0.0/);
 - Código em inglês.
 
 ## O Desafio
