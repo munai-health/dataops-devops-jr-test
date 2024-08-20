@@ -1,55 +1,59 @@
 # Desafio DevOps Jr Munai
 
-Obrigado por participar de nosso processo seletivo.
+Obrigado por participar do nosso processo seletivo.
 
 ## Instruções
 
-- Crie um repositório no seu GitHub
-- Faça seus commits descritivos e específicos no seu repositório
-- Atenção, avaliaremos o conteúdo do repositório bem como a descrição dos commits.
+- Crie um repositório no seu GitHub.
+- Faça commits descritivos e específicos no seu repositório.
+- Atenção: avaliaremos tanto o conteúdo do repositório quanto a descrição dos commits.
 
 ## Critérios de Avaliação
 
-Os seguintes critérios serão utilizados apra a avaliação do Projeto do desafio:  
+Os seguintes critérios serão utilizados para a avaliação do projeto do desafio:
 
-- Deve ser feito utilizando Infraestrutura como Código (IaC), tais como Terraform, CloudFormation, Ansible, etc;
-- Deve ser feito para ser utilizado com infrastrura em nuvem, tais como AWS, Azure, GCP, etc;
-- Deve prever as regras de segurança necessárias para o ambiente;
-- Deve prever as regras de roteamento necessárias para o ambiente;
-- Deve prever as configurações necessárias para o funcionamento do ambiente;
+- Deve ser realizado utilizando Infraestrutura como Código (IaC), como Terraform, CloudFormation, Ansible, etc.;
+- Deve ser desenvolvido para ser utilizado em infraestrutura na nuvem, como AWS, Azure, GCP, etc. **Não é obrigatória a implementação real do sistema, apenas o plano gerado pelo Terraform**. Use o comando `terraform plan` para verificar seu código;
+- Deve incluir as regras de segurança necessárias para o ambiente;
+- Deve incluir as regras de roteamento necessárias para o ambiente;
+- Deve incluir as configurações necessárias para o funcionamento do ambiente;
 - Deve ser feito um diagrama de arquitetura do ambiente;
 - Os arquivos devem ser claros e organizados;
 - Os arquivos não devem ser de formatos binários ou proprietários;
 - [Padrão de commits](https://www.conventionalcommits.org/pt-br/v1.0.0/); e
 - Código em inglês.
 
-## O desafio
+## O Desafio
 
-O desafio consiste em criar uma estrutra para uma aplicação web, que deve conter os seguintes recursos:
+O desafio consiste em criar uma estrutura para uma aplicação web, que deve conter os seguintes recursos:
 
-### Uma máquina de banco de dados contendo um Banco de Dados PostgreSQL
+### Máquina de banco de dados contendo um Banco de Dados PostgreSQL
 
 - Deve ser utilizada a versão 17 do PostgreSQL;
-- Deve ter uma rotina de backup, enviando o backup para um serviço de armazenamento de Objetos; e
-- Deve ser acesseível apenas pela máquina contendo o servidor web.
+- Deve haver uma rotina de backup, enviando o backup para um serviço de armazenamento de objetos; e
+- Deve ser acessível apenas pela máquina que contém o servidor web.
 
-### Uma máquina para aplicação contendo um servidor web
+### Máquina de aplicação contendo um servidor web
 
 - Deve ser utilizada a versão 1.26 do Nginx;
 - Deve ser acessível pela internet;
-- Deve conter um certificado SSL válido; e
+- Deve conter um certificado SSL válido;
 - O serviço SSH deve ser acessível pela internet.
 
-### Uma máquina de banco de dados contendo um Banco de Dados MongoDB
+### Máquina de banco de dados contendo um Banco de Dados MongoDB
 
 - Deve ser utilizada a versão 7.1 do MongoDB;
-- Deve ter uma rotina de backup, enviando o backup para um serviço de armazenamento de Objetos; e
-- Deve ser acesseível apenas pela máquina contendo o servidor web.
+- Deve haver uma rotina de backup, enviando o backup para um serviço de armazenamento de objetos; e
+- Deve ser acessível apenas pela máquina que contém o servidor web.
 
 ## Observações
 
 - O dimensionamento das máquinas é de sua escolha;
-- O serviço de armazenamento de Objetos é de sua escolha;
-- O serviço de Certificado SSL é de sua escolha;
+- O serviço de armazenamento de objetos é de sua escolha;
+- O serviço de certificado SSL é de sua escolha.
+
+## Nota Importante
+
+O objetivo deste desafio é propor soluções com base no seu conhecimento e demonstrar até onde você consegue ir com suas habilidades atuais. **Não se preocupe se encontrar dificuldades**: estamos interessados em entender seu processo de pensamento e como você aborda problemas. Se houver algum ponto desafiador, sinta-se à vontade para trazê-lo para discussão durante a entrevista.
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas._
